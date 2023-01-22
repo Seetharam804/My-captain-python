@@ -1,0 +1,14 @@
+# My-captain-python
+#to print positive terms in list
+n=int(input("enter no of terms="))
+list=[]
+for i in range(n):
+    m=int(input("enter term="))
+    list.append(m) 
+print("list=",list)
+list2=[]
+for i in range(len(list)):
+    if(list[i]>0):
+        list2. append(list[i])
+print("positive list=",list2)
+        
